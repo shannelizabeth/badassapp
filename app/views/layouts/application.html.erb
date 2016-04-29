@@ -6,9 +6,20 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
+
 <body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
 
 <%= yield %>
 
 </body>
+<footer>&copy 2016 Shannon Scharschu
+</footer>
 </html>
